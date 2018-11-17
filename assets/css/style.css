@@ -1,4 +1,148 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    background-color: #eee;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
+
+html{
+    height: 50%;
+}
+
+header{
+    background-color: #fff;
+    border-color: #cccccc;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    float: right;
+    margin-right: 10%;
+    margin-top: 0;
+    height: 65px
+}
+
+nav ul{
+    padding-left: 0;
+    margin-bottom: 29px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #777777;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name{
+    background-color: #4aaaa5;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+}
+
+#container{
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.contentHead{
+    padding: 15px 10px 15px 0px;
+    width: 95%;
+    margin: 15px auto;
+    color: #4aaaa5;
+}
+
+#content{
+    width: 95%;
+    margin: 15px auto;
+    border-top: 1px solid black;
+    padding: 15px 10px 15px 0px;
+    overflow: auto;
+}
+
+#aboutMe{
+    color: #4aaaa5;
+}
+
+#allen{
+    width: 150px;
+    height: 170px;
+    float: left;
+    margin-right: 15px;
+}
+
+p{
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 60px;
+    padding-bottom: 1px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+
+/*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+
+
+Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd
+
+
+
+
+Fonts:
+
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
