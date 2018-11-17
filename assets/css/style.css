@@ -83,7 +83,7 @@ h1{
     color: #4aaaa5;
 }
 
-#content{
+.content{
     width: 95%;
     margin: 15px auto;
     border-top: 1px solid black;
